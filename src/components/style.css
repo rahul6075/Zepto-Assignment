@@ -1,0 +1,124 @@
+/* DropDown Option CSS */
+#option {
+  background-color: white;
+}
+#option .dropdown-option {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 5px 8px;
+  height: 3.5rem;
+}
+
+#option:hover {
+  background-color: #ededed;
+}
+#option .avatar > img {
+  width: 3rem;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+  object-fit: cover;
+}
+#option .info {
+  display: flex;
+  flex-direction: "row";
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#option h1 {
+  font-size: 1.1rem;
+  color: rgb(27, 25, 25);
+  font-weight: 700;
+  letter-spacing: 0.02em;
+}
+
+#option .small-desc {
+  font-size: 14px;
+  color: #777;
+}
+
+#tag {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  height: 2rem;
+  background-color: #e0dee1;
+  padding: 4px 8px;
+  min-width: 10rem;
+  overflow-wrap: break-word;
+  border-radius: 25px;
+}
+
+/* Tag-Chip */
+#tag .tag-content {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+#tag .tag-content > img {
+  width: 2rem;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#tag .tag-content > p {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #7f7f7f;
+}
+
+#tag .tag-icon {
+  padding: 2px;
+  border-radius: 50%;
+}
+#tag .tag-icon > img {
+  width: 1rem;
+  mix-blend-mode: multiply;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+/* Tag-Input */
+
+#tag-input {
+  position: relative;
+}
+
+#tag-input .tag-input-container {
+  background-color: #faf9fa;
+  padding: 0.8rem 1rem;
+  border-bottom: lightblue;
+  border-width: 2px;
+  display: flex;
+  align-items: center;
+}
+
+#tag-input .tag-input-container > input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+}
+
+#tag-input .dropdown-options {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+#tag-input .dropdown-options .not-available {
+  height: 5rem;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#tag-input .dropdown-options .not-available > p {
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: #7f7f7f;
+  font-size: 20px;
+}
