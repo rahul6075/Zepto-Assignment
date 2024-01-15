@@ -18,7 +18,6 @@ Make sure you have the following installed on your machine:
 ## Getting Started
 
 1. **Clone the repository:**
-2. **cd assignment**
-3. **npm install**
-4. **npm run storybook **
+2. **npm install**
+3. **npm run storybook  or npm run dev**
  
